@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://fonts.googleapis.com/css?family=Dosis:400,700" rel="stylesheet">
+    <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">-->
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <!-- tilted css-->
+    <link rel="stylesheet" href="css/tiltedpage-scroll.css">
+    <!-- Media CSS -->
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <title>Tilted page scroll</title>
+</head>
+
+<body>
+    <div class="container">
+         <div class="main">
+                    <section class="page1">
+                        <img src="img/demo1.jpg" alt="img" class="img-fluid">
+                    </section>
+                    <section class="page2">
+                        <img src="img/demo2.jpg" alt="img" class="img-fluid">
+                    </section>
+                    <section class="page3">
+                        <img src="img/demo3.jpg" alt="img" class="img-fluid">
+                    </section>
+                    <section class="page4">
+                        <img src="img/demo4.jpg" alt="img" class="img-fluid">
+                    </section>
+                    <section class="page5">
+                        <img src="img/2.jpg" alt="img" class="img-fluid">
+                    </section>
+                    <section class="page6">
+                        <img src="img/6.jpg" alt="img" class="img-fluid">
+                    </section>
+                    <section class="page9">
+                        <img src="img/7.jpg" alt="img" class="img-fluid">
+                    </section>
+                    <section class="page7">
+                        <img src="img/8.jpg" alt="img" class="img-fluid">
+                    </section>
+
+                    <section class="last-page">
+
+                    </section>
+                </div>
+    </div>
+
+    <!--
+    
+     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+-->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<!--    <script src="js/jquery-3.3.1.min.js"></script>-->
+   <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/jquery.tiltedpage-scroll.js"></script>
+    <!--    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>-->
+    <!--    <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>-->
+    <!--    <script src="js/jquery.counterup.min.js"></script>-->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/apps.js"></script>
+    
+    <script>
+   $(".main").tiltedpage_scroll({
+    sectionContainer: "> section",     // In case you don't want to use <section> tag, you can define your won CSS selector here
+    angle: 50,                         // You can define the angle of the tilted section here. Change this to false if you want to disable the tilted effect. The default value is 50 degrees.
+    opacity: true,                     // You can toggle the opacity effect with this option. The default value is true
+    scale: true,                       // You can toggle the scaling effect here as well. The default value is true.
+    outAnimation: true                 // In case you do not want the out animation, you can toggle this to false. The defaul value is true.
+  });
+
+    </script>
+
+</body>
+
+</html>
